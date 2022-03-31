@@ -14,11 +14,11 @@ namespace KasirBaru_Pertemuan7
 	public partial class MainForm : Form
 	{
 		//4
-        private SqlCommand cmd; 
-        private DataSet ds; 
-        private SqlDataAdapter da;
+        	private SqlCommand cmd; 
+       		private DataSet ds; 
+        	private SqlDataAdapter da;
         
-        Koneksi Konn = new Koneksi();
+        	Koneksi Konn = new Koneksi();
         
 		public MainForm()
 		{
